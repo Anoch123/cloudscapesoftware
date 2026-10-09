@@ -143,10 +143,10 @@ export default function Navbar() {
 
         {/* Desktop CTA */}
         <Link
-          href="/contact"
+          href="/talk-to-us"
           className="hidden items-center rounded-full bg-[#ff0000] px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-red-700 md:inline-flex"
         >
-          Contact us
+          Talk to us
         </Link>
 
         {/* Mobile toggle: burger <-> X */}
@@ -281,11 +281,11 @@ export default function Navbar() {
           }`}
         >
           <Link
-            href="/contact"
+            href="/talk-to-us"
             onClick={() => setOpen(false)}
             className="flex w-full items-center justify-center rounded-[10px] text-[20px] bg-[#ff0000] px-5 py-3.5 text-base font-semibold text-white transition-colors hover:bg-red-700"
           >
-            Contact us
+            Talk to us
           </Link>
         </div>
       </div>

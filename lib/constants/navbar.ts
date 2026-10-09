@@ -1,17 +1,23 @@
-import { NavLink } from "../types/navbar";
+import { NavLink } from "../types/navbar.type";
 
 export const NAV_LINKS: NavLink[] = [
   {
-    label: "Services",
-    href: "#design",
-    children: [
-      { label: "Web Development", href: "#services-web" },
-      { label: "Cloud Solutions", href: "#services-cloud" },
-      { label: "UI/UX Design", href: "#services-design" },
-      { label: "Product Engineering", href: "#services-engineering" },
-    ],
+    label: "AI Business Automation",
+    href: "ai-business-solutions",
   },
-  { label: "AI Business Automation", href: "#technology" },
-  { label: "Technology", href: "#expertise" },
-  { label: "About Us", href: "#marketing" },
+
+  {
+    label: "Services",
+    href: "our-services",
+  },
+
+  {
+    label: "Technologies",
+    href: "technologies-we-use",
+  },
+
+  {
+    label: "Our Story",
+    href: "our-story",
+  },
 ];
